@@ -1,0 +1,30 @@
+.v{
+    display: flex;
+    border: 2px solid black;
+    padding: 50px;
+    background-color: beige;
+    border-radius: 10px;
+    height: min-content;
+
+} 
+.w2,.w3,.w4,.w5,.w6,.w7{
+    margin-left: 150px;
+}
+.w5{
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 3px;
+}
+.b1{
+    position: relative;
+    bottom: 25px;
+    left: 1400px;
+    width: 70px;
+    background-color: red;
+    text-shadow: 10px;
+    color: aliceblue;
+}
+
+.b1:hover{
+    color: blue;
+}
